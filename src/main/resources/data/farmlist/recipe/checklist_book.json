@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["NNN", "NPN", "NNN"],
+  "key": {
+    "N": "minecraft:iron_nugget",
+    "P": "minecraft:paper"
+  },
+  "result": {
+    "id": "farmlist:checklist_book",
+    "count": 1
+  }
+}

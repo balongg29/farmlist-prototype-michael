@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "farmlist",
+  "version": "${version}",
+  "name": "Farm Checklist",
+  "description": "A custom Checklist Book with farm checklists, item catalog, inventory scan, and building-block picking.",
+  "authors": [
+    "Michael Salomon"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.farmlist.FarmList"
+    ],
+    "client": [
+      "com.farmlist.FarmListClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
